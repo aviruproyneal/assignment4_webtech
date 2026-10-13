@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0d0d12;
+    color: #d1d5db;
+    line-height: 1.6;
+}
+
+h2 {
+    color: #f9fafb;
+    margin-bottom: 20px;
+}
+
+.section {
+    padding: 40px 0;
+    border-bottom: 1px solid #1f1f28;
+}
+
+/* We style HTML form for Task 0 and 1 */
+.basic-form {
+    max-width: 600px;
+}
+
+.basic-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.basic-form input,
+.basic-form textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #3a3a45;
+    border-radius: 6px;
+    background-color: #1f1f28;
+    color: #e5e7eb;
+    font-family: Arial, sans-serif;
+}
+
+.basic-form button {
+    margin-top: 20px;
+    padding: 10px 22px;
+    background-color: #60a5fa;
+    color: #0d0d12;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.basic-form button:hover {
+    background-color: #3b82f6;
+}
+
+/* We override Bootstrap primary button */
+.btn-primary {
+    background-color: #60a5fa;
+    border-color: #60a5fa;
+    color: #0d0d12;
+}
+
+.btn-primary:hover {
+    background-color: #3b82f6;
+    border-color: #3b82f6;
+    color: #0d0d12;
+}
