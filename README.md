@@ -4,8 +4,6 @@
 
 **Group:** IT-2513
 
-**Course:** Web Technologies 1
-
 **Live Site:** https://aviruproyneal.github.io/assignment4_webtech/
 
 ---
